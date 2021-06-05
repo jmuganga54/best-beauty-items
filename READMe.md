@@ -8,7 +8,7 @@ The implementation strives to be simple and responsive.
 
 ## Goals
 
--Experimenting with positioning
+-Experimenting with responsive design
 
 ## Structure
 
