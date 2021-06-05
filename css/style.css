@@ -1,0 +1,205 @@
+body {
+    font-family: 'Roboto';
+
+}
+
+.container-fluid {
+    padding: 4% 10%;
+}
+
+
+h1 {
+
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Roboto';
+    font-weight: light;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* Title section */
+#title {
+    background-image: url(../images/title-image.jpg);
+    background-size: cover;
+}
+
+.logo-text {
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.nav-margin {
+    margin-left: auto;
+}
+
+
+.title-content {
+    width: 50%;
+    margin-left: auto;
+    padding: 7% 0 0 3%;
+
+}
+
+.title-link {
+    margin-right: 2rem;
+}
+
+.shop-btn {
+    border-radius: 2rem;
+}
+
+.shop-btn {
+    color: white;
+}
+
+
+#title .container-fluid {
+    padding: 3% 5% 10% 5%;
+}
+
+
+
+/* New-products section */
+#new {
+    text-align: center;
+}
+
+.new-title {
+    width: 60%;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.new-product {
+    text-align: left;
+}
+
+.product-title {
+    font-weight: bold;
+}
+
+.product-id {
+    font-size: 0.6rem;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.product-score {
+    color: #f7fd04;
+}
+
+.product-price {
+    color: black;
+}
+
+.product-title,
+.product-id,
+.product-score {
+    margin-bottom: 0;
+}
+
+/* Promotion section */
+
+#promotion {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #edffec;
+
+
+}
+
+.promotion-discount {
+    width: 48%;
+    margin-right: 1%;
+    padding: 5% 5% 5% 30%;
+    background-color: coral;
+    background-image: url('../images/discount.jpg');
+    background-size: cover;
+}
+
+.promotion-double {
+    padding: 0;
+
+
+}
+
+.promotion-women {
+    padding: 5% 30% 5% 5%;
+    background-image: url('../images/women.jpg');
+    background-size: cover;
+    margin-bottom: 1%;
+}
+
+
+.promotion-producers {
+
+    padding: 5% 5% 5% 30%;
+    background-color: chartreuse;
+    background-image: url('../images/discount.jpg');
+    background-size: cover;
+}
+
+.promo-highlights {
+    color: #f7fd04;
+}
+
+/* mailing-list section */
+#mailing-list .container-fluid {
+    text-align: center;
+    padding: 3% 20%;
+}
+
+.mailing-input {
+
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+.mailing-message {
+    font-weight: lighter;
+}
+
+.fa-greater-than {
+    color: white;
+}
+
+/* Footer section */
+#footer {
+    font-weight: lighter;
+}
+
+#footer .container-fluid {
+    text-align: center;
+    padding: 3% 20%;
+}
+
+.social-icon {
+    margin-right: 1.5rem;
+}
+
+/* Media queries */
+@media (max-width:991px) {
+    .promotion-discount {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+}
+
+@media (max-width:756px) {
+    .title-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
